@@ -1,0 +1,98 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    width: 300px;
+    height: 100vh;
+    padding-top: 2em;
+    margin-inline: auto;
+
+    h1 {
+        width: fit-content;
+        margin-inline: auto;
+
+        span {
+            color: rgb(33, 137, 141);
+        }
+    }
+
+    .alert-message {
+        text-transform: capitalize;
+        padding: .5em;
+        color: white;
+    }
+
+    .bg-green {
+        background-color: green;
+    }
+
+    .bg-red {
+        background-color: red;
+    }
+
+    form {
+        padding: 1em;
+        background-color: rgb(184, 184, 184);
+        display: flex;
+        flex-direction: column;
+
+        &>* {
+            margin-bottom: .3em;
+        }
+
+        input {
+            padding: .3em;
+            border: none;
+        }
+
+        button {
+            outline: none;
+            border: none;
+            padding: 0.5em;
+            width: 50%;
+            margin-inline: auto;
+            margin-top: .4em;
+            background-color: rgb(33, 137, 141);
+            color: white;
+            border-radius: 5px;
+        }
+
+        button:hover {
+            background-color: rgba(95, 158, 160, 0.548);
+            color: rgba(255, 255, 255, 0.712);
+        }
+    }
+
+    table {
+        width: 100%;
+        border-spacing: 0;
+        text-transform: capitalize;
+    }
+
+    th,
+    td {
+        text-align: start;
+        padding: .3em;
+        overflow-wrap: break-word;
+    }
+
+    tbody tr:nth-child(odd) {
+        background-color: gray;
+    }
+
+    table .btn {
+        text-align: center;
+    }
+
+    table a {
+        display: inline-block;
+        border-radius: 50%;
+        background-color: red;
+        padding: 3px;
+        color: white;
+        text-decoration: none;
+        font-size: .6rem;
+    }
+}

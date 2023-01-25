@@ -1,0 +1,85 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+.container {
+  width: 300px;
+  height: 100vh;
+  padding-top: 2em;
+  margin-inline: auto;
+}
+.container h1 {
+  width: -webkit-fit-content;
+  width: -moz-fit-content;
+  width: fit-content;
+  margin-inline: auto;
+}
+.container h1 span {
+  color: rgb(33, 137, 141);
+}
+.container .alert-message {
+  text-transform: capitalize;
+  padding: 0.5em;
+  color: white;
+}
+.container .bg-green {
+  background-color: green;
+}
+.container .bg-red {
+  background-color: red;
+}
+.container form {
+  padding: 1em;
+  background-color: rgb(184, 184, 184);
+  display: flex;
+  flex-direction: column;
+}
+.container form > * {
+  margin-bottom: 0.3em;
+}
+.container form input {
+  padding: 0.3em;
+  border: none;
+}
+.container form button {
+  outline: none;
+  border: none;
+  padding: 0.5em;
+  width: 50%;
+  margin-inline: auto;
+  margin-top: 0.4em;
+  background-color: rgb(33, 137, 141);
+  color: white;
+  border-radius: 5px;
+}
+.container form button:hover {
+  background-color: rgba(95, 158, 160, 0.548);
+  color: rgba(255, 255, 255, 0.712);
+}
+.container table {
+  width: 100%;
+  border-spacing: 0;
+  text-transform: capitalize;
+}
+.container th,
+.container td {
+  text-align: start;
+  padding: 0.3em;
+  overflow-wrap: break-word;
+}
+.container tbody tr:nth-child(odd) {
+  background-color: gray;
+}
+.container table .btn {
+  text-align: center;
+}
+.container table a {
+  display: inline-block;
+  border-radius: 50%;
+  background-color: red;
+  padding: 3px;
+  color: white;
+  text-decoration: none;
+  font-size: 0.6rem;
+}/*# sourceMappingURL=style.css.map */
